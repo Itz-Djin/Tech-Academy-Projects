@@ -1,0 +1,22 @@
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+    animation: mymove 7s infinite;
+    border-radius: 8px;
+}
+
+@keyframes mymove {
+        50% {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+}
+
+#footer {
+    background-color: rgb(197, 153, 86);
+    text-align: center;
+    font-weight: bold;
+}
