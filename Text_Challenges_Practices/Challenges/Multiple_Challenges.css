@@ -1,19 +1,29 @@
-.container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/*=================================================
+    Challenge 1
+===================================================*/
+
+.Chall-1 img {
     width: 20%;
     height: 20%;
     animation: mymove 7s infinite;
-    border-radius: 8px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
 }
 
 @keyframes mymove {
-        50% {
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-        }
+    50% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
 }
+
+
+/*=================================================
+Challenge 2
+===================================================*/
 
 #footer {
     background-color: rgb(197, 153, 86);
@@ -21,21 +31,92 @@
     font-weight: bold;
 }
 
+/*=================================================
+Challenge 2
+===================================================*/
+
 table {
     border-collapse: collapse;
 }
 
-table, td, th, tr {
+table,
+td,
+th,
+tr {
     margin-left: auto;
     margin-right: auto;
     border: 1px double black;
 
 }
 
-th, td {
+th,
+td {
     padding: 20px;
 }
 
 th {
     background-color: aqua;
 }
+
+/*=================================================
+    Challenge 4
+===================================================*/
+
+.container-4 h1 {
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 2.50s;
+}
+
+.overlay > * {
+    transform: translateY(20px);
+    transition: transform 1.50s;
+}
+
+.overlay:hover {
+    opacity: 100%;
+}
+
+.overlay:hover >* {
+    transform: translateY(0px);
+}
+
+.overlay h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.overlay p {
+    font-size: 1.25em;
+    margin-top: -1em;
+}
+/*=================================================
+    Challenge 5
+===================================================*/
