@@ -10,6 +10,10 @@ p {
     padding: 5%;
 }
 
+p:hover {
+    color: blue;
+}
+
 .container {
     background-color: rgb(197, 153, 86);
     margin: 35px 15px;
