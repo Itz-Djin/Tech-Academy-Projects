@@ -6,12 +6,17 @@ html {
     text-align: center;
 }
 
+p {
+    padding: 5%;
+}
+
 .container {
     background-color: rgb(197, 153, 86);
     margin: 35px 15px;
     border-radius: 5px;
     padding-top: 25px;
     padding-bottom: 25px;
+    height: 92%;
 }
 .Chall-1 img {
     width: 20%;
@@ -40,7 +45,7 @@ footer {
     font-weight: bold;
     background-color: rgb(197, 153, 86);
     border-radius: 5px;
-    margin: 0px 15px;
+    margin: 0px 0px;
     text-align: center;
 }
 
@@ -55,7 +60,13 @@ Challenge 3
 
 table {
     border-collapse: collapse;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
 }
+
 
 table,
 td,
@@ -64,12 +75,15 @@ tr {
     margin-left: auto;
     margin-right: auto;
     border: 1px double black;
-
 }
 
 th,
 td {
     padding: 20px;
+    max-width: 100%;
+    width: auto;
+    white-space: nowrap;
+    text-size-adjust: 100%;
 }
 
 th {
@@ -172,4 +186,24 @@ td {
 
 .menu li:hover {
     color: red;
+}
+
+/*==========================================================
+    Challenge 6
+============================================================*/
+
+.column {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+span {
+    color: antiquewhite;
 }
