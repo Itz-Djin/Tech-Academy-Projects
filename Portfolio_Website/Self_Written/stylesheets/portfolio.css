@@ -1,0 +1,139 @@
+/*=============================================
+    GENERAL STYLING
+===============================================*/
+
+/*=== BODY ===*/
+body {
+    margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
+}
+
+/*=== Heading 1 elements ===*/
+h1 {
+    text-transform: uppercase; /* Capitalizing all h1 headings */
+    font-family: "Trebuchet MS", Optima; /*Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h1 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color: #1a1a1a;
+}
+
+/* Heading 1 element hover effect */
+h1:hover {
+    filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
+    transform: scale(1.1); /* When the h1 elements are hovered over, they increase in size by 1.1 */
+    transition: transform 1s; /* This causes the transformation to last 1 second */
+}
+
+/* Styling for portfolio title text */
+.white-text {
+    color: #fff; 
+}
+
+/* Paragraph elements */
+p {
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: justify; /* Justify text within paragraph elements */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 20px;
+    padding-left: 20px; /* Adds padding to the left of the paragraph element */
+    padding-right: 20px; /* Adds padding to the right of the paragraph element */
+}
+
+/* Paragraph element hover effect */
+p:hover {
+    transition: transform 1s; /* This makes the transfoorm effect last 1 second */
+    transform: scale(1.01); /*This makes the paragraphs increase slightly in size when hovered over */
+}
+
+/*Center class - this applies to all elements with the class "center" */
+.center {
+    text-align: center; /*This center aligns the text */
+}
+
+/* Center class hover effect - this only affects the quote, github link, and fotter */
+.center:hover {
+    transition: transform 2s; /* This makes the transform effect last 2 seconds */
+    transform: scale(1.1); /*This makes the elements with class "center" increase in size by 1.1 when hovered over */
+}
+
+/* Anchor elements */
+a {
+    color: blue; /*This ensures all links are blue */
+}
+
+/* Quotation elements */
+q {
+    font-style: italic; /*This makes the quote italicized */
+}
+
+/* Image elements */
+img {
+    filter: grayscale(75%); /* This rids our pictures of 75% of their color */
+    border-radius: 8px; /* Gives all images slightly rounded corners */
+    max-width: 100%; /* Ensures all images stay within the width of their container */
+    height: 340px; /* Sets the height of all images*/
+    display: block; /* By specifying block display we can ensure our images are able to be centered*/
+    margin-left: auto; /* In combination with "margin-right: auto" this centers all images */
+    margin-right: auto;
+}
+
+/* Image element hover effects */
+img:hover {
+    filter: grayscale(5%); /* Brings back most of the image's color when hovered over */
+    transition: transform 1s; /* Transition lasts 1 second */
+    transform: scale(1.1); /* Image is increased slightly when hovered over */
+}
+
+/* The @media rule is used in media queries to apply different styles for different media/types of devices */
+/* On screens 576px and smaller the images will be 100px tall and centered vertically in the column */
+@media screen and (max-width: 576px) {
+    img {
+        height: 100px;
+        margin-top: 150px;
+    }
+}
+
+/* Styling for footer element */
+footer {
+    padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
+    background-color: white;
+}
+
+/*=========================================================
+    END OF GENERAL STYLING
+===========================================================*/
+
+/*=========================================================
+    NAVBAR STYLING
+===========================================================*/
+
+.Navbar {
+    overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nab bar is not displayed */
+    background-color: black; /* This colors the navbar blaack */
+    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0; /* This ensures no space is displayed above the navbar */
+    width: 100%; /* This makes the navbar span the entire width of the page */
+    z-index: 1; /* This ensures other elements don't display over the navbar */
+    -webkit-animation: moveNav 5s; /* This applies the moveNav animation below for safari 4.0 - 8.0 */
+    animation: moveNav 5s; /* This applies the moveNav animation for all other browsers */
+}
+
+/* moveNav animation effect for moving the nav bar in from the left of the screen */
+@keyframes moveNav {
+    from {left: -100vw;} /* The navbar is starting off screen to the left */
+    to {left: 0vw;} /* This moves the navbar into place on the screen */
+}
+
+/* Navbar links */
+.Navbar a {
+    float: left; /* This specifies that the text floats on the left on the navbar */
+    display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+    color: white; /* This is the font color for text on our navbar */
+    padding: 14px 16px; /* This adds padding around our text */
+    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
+    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-size: 20px; /* This specifies the font size for text on our navbar */
+    text-align: center; /* This centers the text within its container */
+    position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
+    -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
+    animation: moveNaveText 5.75s; /* Applies the moveNavText animation for 5.75s */
+}
