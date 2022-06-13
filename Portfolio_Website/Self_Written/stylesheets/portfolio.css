@@ -210,6 +210,12 @@ footer {
     animation: moveVideoText 5.75s;
 }
 
+@media screen and (max-width: 576px) {
+    .Video_Text {
+        color: black;
+    }
+}
+
 .Video_Text h1 {
     text-shadow: 2px 1px 1px #55bcc9;
 }
