@@ -4,7 +4,7 @@ This repository is for my Tech Academy projects
 ## HTML and CSS Projects
 This is a display of sample webistes as well as my portfolio website that I made using HTML and CSS.
 ### Projects
-- [My Portfolio](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/Portfolio_Website/Self_Written](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/HTML_%26_CSS/Portfolio_Website)
+- [My Portfolio](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/HTML_%26_CSS/Portfolio_Website)
 - [Movie Theater Site](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/bootstrap4_projects/1st_bootstrap_project.html)
 - [Vinyl One Page Site](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/One-Page_Website)
 - [Space Station Site](https://github.com/Itz-Djin/TechAcademy-HTML-and-CSS-Projects/tree/main/Space_Project_Tandem)
