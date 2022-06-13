@@ -6,7 +6,7 @@ This is a display of sample webistes as well as my portfolio website that I made
 ### Projects
 - [My Portfolio](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/Portfolio_Website/Self_Written)
 - [Movie Theater Site](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/bootstrap4_projects/1st_bootstrap_project.html)
-- [Vinyl One Page Site]()
+- [Vinyl One Page Site](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/One-Page_Website)
 #### My Portfolio
 #### Movie Theater Site
 #### Vinyl One Page Site
