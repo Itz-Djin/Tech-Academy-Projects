@@ -19,7 +19,7 @@ var C = " \"Ever since I was a child I have had this instinctive urge for expans
 document.write(C)
 
 // MULTIPLE VARIABLES ASSIGNMENT
-var D = "Cars "
+var D = " Cars "
 Toyota = "Tacoma "
 Mazda = "RX7 "
 Honda = "Accord "
@@ -30,4 +30,6 @@ document.write(Toyota)
 var E = 3 
 F = 7
 var G = (E + F) // This is the expression
-document.write(G)
+document.write(G )
+
+document.write(D + Mazda)
