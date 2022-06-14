@@ -1,8 +1,8 @@
 # Tech-Academy-Projects
-This repository is for my Tech Academy projects
+This repository is for my Tech Academy projects. Here I have completed projects using different computer languages and programming languages, from HTML/CSS to JS, and Python.
 
 ## HTML and CSS Projects
--[HTML/CSS Projects]()
+-[HTML/CSS Projects](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/HTML_%26_CSS)
 This is a display of sample webistes as well as my portfolio website that I made using HTML and CSS.
 ### Projects
 - [My Portfolio](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/HTML_%26_CSS/Portfolio_Website)
