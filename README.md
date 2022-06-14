@@ -2,6 +2,7 @@
 This repository is for my Tech Academy projects
 
 ## HTML and CSS Projects
+-[HTML/CSS Projects]()
 This is a display of sample webistes as well as my portfolio website that I made using HTML and CSS.
 ### Projects
 - [My Portfolio](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/HTML_%26_CSS/Portfolio_Website)
@@ -16,3 +17,7 @@ This page is an example home page for a Movie theater that is styled using Boots
 This page is a one page project with a external stylesheet. It utilizes a navbar, forms, and different sections throughout the page.
 #### Space Station Site
 This page is an example home page for a Space travel company. It's styled using CSS and contains a navbar, image containers, and a form. 
+
+## JavaScript Projects
+-[JS Projects]()
+This folder will contain projects, practices and challenges I've done with The Tech Academy using the Object-Orientated Programming language, JavaScript.
