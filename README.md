@@ -19,5 +19,5 @@ This page is a one page project with a external stylesheet. It utilizes a navbar
 This page is an example home page for a Space travel company. It's styled using CSS and contains a navbar, image containers, and a form. 
 
 ## JavaScript Projects
-- [JS Projects]https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/JavaScript()
+- [JS Projects](https://github.com/Itz-Djin/Tech-Academy-Projects/tree/main/JavaScript)
 This folder will contain projects, practices and challenges I've done with The Tech Academy using the Object-Orientated Programming language, JavaScript.
