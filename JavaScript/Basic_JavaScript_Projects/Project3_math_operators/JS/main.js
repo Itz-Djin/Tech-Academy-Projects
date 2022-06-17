@@ -45,3 +45,4 @@ function decrementFunction() { // created the function "decrementFunction", it u
     document.getElementById('Decrement').innerHTML = C;
 }
 
+document.write(Math.min(23, 325, 46, 54, 96)).innerHTML
