@@ -8,3 +8,9 @@ function myFunction() { // created variable myFunction
     sentence += " a lot from this book!"; // added += operator to attach another sting value to the sentence variable
     document.getElementById("conc").innerHTML = sentence; // invoked getElementById on html document selecting the element with id 'conc' to effect whats on the inside of the element using the '.innerHTML' property
 }
+
+// Function Challenge
+function testRes(num1, num2) {
+    return num1 * num2;
+}
+document.getElementById('test').innerHTML = testRes(3, 40);
