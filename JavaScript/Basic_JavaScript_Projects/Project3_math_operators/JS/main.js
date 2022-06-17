@@ -27,3 +27,20 @@ function modulus() {
     var mod = 9 % 4;
     document.getElementById("Modulus").innerHTML = "When the dividen is 9 and the divisor is 4 you are left with a remainder of: " + mod;
 }
+
+function negation() {
+    var A = 9;
+    document.getElementById("Unary").innerHTML = -A;
+}
+
+function incrementFunction() {
+    var B = 99;
+    B++;
+    document.getElementById('Increment').innerHTML = B;
+}
+
+function decrementFunction() {
+    var C = 100;
+    C--;
+    document.getElementById('Decrement').innerHTML = C;
+}
