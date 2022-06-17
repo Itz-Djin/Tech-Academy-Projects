@@ -44,3 +44,4 @@ function decrementFunction() {
     C--;
     document.getElementById('Decrement').innerHTML = C;
 }
+
