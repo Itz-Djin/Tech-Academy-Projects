@@ -45,3 +45,4 @@ function decrementFunction() {
     document.getElementById('Decrement').innerHTML = C;
 }
 
+//The math object method in JS allows you to perform mathematical tasks on numbers
