@@ -22,3 +22,8 @@ function equation() {
     var expression = (5 + 5) * 5 / 2 - 5;
     document.getElementById('Maths').innerHTML = '5 plus 5 then multiplied by 5, divided by 2 then minus another 5 equals ' + expression;
 }
+
+function modulus() {
+    var mod = 9 % 4;
+    document.getElementById("Modulus").innerHTML = "When the dividen is 9 and the divisor is 4 you are left with a remainder of: " + mod;
+}
