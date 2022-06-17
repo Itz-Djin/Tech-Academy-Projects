@@ -1,4 +1,4 @@
-function add(num1, num2) {
-    return  num1 + num2;
+function add() {
+    var addition = 5 + 5;
+    document.getElementById('Math').innerHTML = '5 + 5 =  ' + addition;
 }
-document.getElementById('Math').innerHTML = add(55, 45);
